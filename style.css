@@ -14,77 +14,82 @@
   grid-column: 1/5;
 }
 
-.plusBtn {
+.btn {
+  border: none;
+  border-radius: 15px;
+}
+
+.plus {
   /* grid-row: 2/6; */
   grid-column: 1/2;
 }
 
-.minusBtn {
+.minus {
   /* grid-row: 2/6; */
   grid-column: 2/3;
 }
 
-.multiplyBtn {
+.multiply {
   /* grid-row: 2/6; */
   grid-column: 3/4;
 }
 
-.divideBtn {
+.divide {
   /* grid-row: 2/6; */
   grid-column: 4/5;
 }
 
-.oneBtn {
+.one {
   grid-column: 1/2;
 }
 
-.twoBtn {
+.two {
   grid-column: 2/3;
 }
 
-.threeBtn {
+.three {
   grid-column: 3/4;
 }
 
-.equalsBtn {
+.equals {
   grid-row: 3/7;
   grid-column: 4/5;
   color: white;
   background-color: #4e8ffe;
 }
 
-.fourBtn {
+.four {
   grid-column: 1/2;
 }
 
-.fiveBtn {
+.five {
   grid-column: 2/3;
 }
 
-.sixBtn {
+.six {
   grid-column: 3/4;
 }
 
-.sevenBtn {
+.seven {
   grid-column: 1/2;
 }
 
-.eightBtn {
+.eight {
   grid-column: 2/3;
 }
 
-.nineBtn {
+.nine {
   grid-column: 3/4;
 }
 
-.zeroBtn {
+.zero {
   grid-column: 1/2;
 }
 
-.dotBtn {
+.dot {
   grid-column: 2/3;
 }
 
-.clearBtn {
+.clear {
   grid-column: 3/4;
 }
