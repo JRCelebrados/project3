@@ -1,8 +1,11 @@
 .content {
-  max-width: 400px;
+  width: 359px;
+  height: 369px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(50px, auto);
+  /* grid-auto-rows: minmax(50px, auto); */
+  grid-template-rows: repeat(6, 1fr);
+  padding: 20px;
   grid-gap: 10px;
 }
 
