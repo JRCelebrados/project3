@@ -16,33 +16,35 @@
 
     <div class="content">
 
-      <input class="ipt" id="input" type="number">
+      <div class="ipt" type="number" name="txt" id="textArea">0</div>
 
-      <button class="btn plus" id="plusButton">+</button>
-      <button class="btn minus" id="minusButton">-</button>
-      <button class="btn multiply" id="multiplyButton">*</button>
-      <button class="btn divide" id="divideButton">/</button>
+      <button class="btn plus" id="plusButton" onclick="pushBtn(this);">+</button>
+      <button class="btn minus" id="minusButton" onclick="pushBtn(this);">-</button>
+      <button class="btn multiply" id="multiplyButton" onclick="pushBtn(this);">&times;</button>
+      <button class="btn divide" id="divideButton" onclick="pushBtn(this);">&divide</button>
 
-      <button class="btn one" id="oneButton">1</button>
-      <button class="btn two" id="twoButton">2</button>
-      <button class="btn three" id="threeButton">3</button>
+      <button class="btn one" id="oneButton" onclick="pushBtn(this);">1</button>
+      <button class="btn two" id="twoButton" onclick="pushBtn(this);">2</button>
+      <button class="btn three" id="threeButton" onclick="pushBtn(this);">3</button>
 
-      <button class="btn equals" id="equalsButton">=</button>
+      <button class="btn equals" id="equalsButton" onclick="pushBtn(this);">=</button>
 
-      <button class="btn four" id="fourButton">4</button>
-      <button class="btn five" id="fiveButton">5</button>
-      <button class="btn six" id="sixButton">6</button>
+      <button class="btn four" id="fourButton" onclick="pushBtn(this);">4</button>
+      <button class="btn five" id="fiveButton" onclick="pushBtn(this);">5</button>
+      <button class="btn six" id="sixButton" onclick="pushBtn(this);">6</button>
 
-      <button class="btn seven" id="sevenButton">7</button>
-      <button class="btn eight" id="eightButton">8</button>
-      <button class="btn nine" id="nineButton">9</button>
+      <button class="btn seven" id="sevenButton" onclick="pushBtn(this);">7</button>
+      <button class="btn eight" id="eightButton" onclick="pushBtn(this);">8</button>
+      <button class="btn nine" id="nineButton" onclick="pushBtn(this);">9</button>
 
-      <button class="btn zero" id="zeroButton">0</button>
-      <button class="btn dot" id="dotButton">.</button>
-      <button class="btn clear" id="clearButton">C</button>
+      <button class="btn zero" id="zeroButton" onclick="pushBtn(this);">0</button>
+      <button class="btn dot" id="dotButton" onclick="pushBtn(this);">.</button>
+      <button class="btn clear" id="clearButton" onclick="pushBtn(this)">C</button>
 
     </div>
 
   </body>
+
+  <script type="text/javascript" src="index.js"></script>
 
 </html>
