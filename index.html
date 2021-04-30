@@ -1,4 +1,9 @@
-<!-- Code from https://www.youtube.com/watch?v=WmwGpjg580o -->
+<!--
+
+Grid code from https://www.youtube.com/watch?v=WmwGpjg580o
+JavaScript from https://www.youtube.com/watch?v=y4SQ89yanKw&t=244s
+
+-->
 
 <!DOCTYPE html>
 
@@ -16,32 +21,30 @@
 
     <div class="content">
 
-      <!-- <input type="text" name="txt" value="" id="textArea"> -->
+      <div class="ipt" type="text" name="txt" id="textArea">0</div>
 
-      <div class="ipt" type="number" name="txt" id="textArea">0</div>
+      <button class="btn plus" id="plusButton" value="+" onclick="pushBtn(this)">+</button>
+      <button class="btn minus" id="minusButton" value="-" onclick="pushBtn(this)">-</button>
+      <button class="btn multiply" id="multiplyButton" value="*" onclick="pushMultBtn('*')">&times</button>
+      <button class="btn divide" id="divideButton" value="/" onclick="pushDivideBtn('/')">&divide</button>
 
-      <button class="btn plus" id="plusButton" onclick="pushBtn(this);">+</button>
-      <button class="btn minus" id="minusButton" onclick="pushBtn(this);">-</button>
-      <button class="btn multiply" id="multiplyButton" onclick="pushBtn(this);">*</button>
-      <button class="btn divide" id="divideButton" onclick="pushBtn(this);">/</button>
+      <button class="btn one" id="oneButton" value="1" onclick="pushBtn(this)">1</button>
+      <button class="btn two" id="twoButton" value="2" onclick="pushBtn(this)">2</button>
+      <button class="btn three" id="threeButton" value="3" onclick="pushBtn(this);">3</button>
 
-      <button class="btn one" id="oneButton" onclick="pushBtn(this)">1</button>
-      <button class="btn two" id="twoButton" onclick="pushBtn(this);">2</button>
-      <button class="btn three" id="threeButton" onclick="pushBtn(this);">3</button>
+      <button class="btn equals" id="equalsButton" value="=" onclick="pushBtn(this)">=</button>
 
-      <button class="btn equals" id="equalsButton" onclick="pushBtn(this);">=</button>
+      <button class="btn four" id="fourButton" value="4" onclick="pushBtn(this)">4</button>
+      <button class="btn five" id="fiveButton" value="5" onclick="pushBtn(this)">5</button>
+      <button class="btn six" id="sixButton" value="6" onclick="pushBtn(this)">6</button>
 
-      <button class="btn four" id="fourButton" onclick="pushBtn(this);">4</button>
-      <button class="btn five" id="fiveButton" onclick="pushBtn(this);">5</button>
-      <button class="btn six" id="sixButton" onclick="pushBtn(this);">6</button>
+      <button class="btn seven" id="sevenButton" value="7" onclick="pushBtn(this)">7</button>
+      <button class="btn eight" id="eightButton" value="8" onclick="pushBtn(this)">8</button>
+      <button class="btn nine" id="numButton" value="9" onclick="pushBtn(this)">9</button>
 
-      <button class="btn seven" id="sevenButton" onclick="pushBtn(this);">7</button>
-      <button class="btn eight" id="eightButton" onclick="pushBtn(this);">8</button>
-      <button class="btn nine" id="nineButton" onclick="pushBtn(this);">9</button>
-
-      <button class="btn zero" id="zeroButton" onclick="pushBtn(this);">0</button>
-      <button class="btn dot" id="dotButton" onclick="pushBtn(this);">.</button>
-      <button class="btn clear" id="clearButton" onclick="pushBtn(this)">C</button>
+      <button class="btn zero" id="zeroButton" value="0" onclick="pushBtn(this)">0</button>
+      <button class="btn dot" id="dotButton" value="." onclick="pushBtn(this)">.</button>
+      <button class="btn clear" id="clearButton" value="C" onclick="pushBtn(this)">C</button>
 
     </div>
 
